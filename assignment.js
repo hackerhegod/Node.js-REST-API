@@ -24,8 +24,10 @@ const express = require("express");
 
 const app = express(); 
 
-const PORT = 3000;
 // OR const app = require("express")(); That way you create the above two line code in one.
+
+// PORT
+const PORT = 3000;
 
 // Middleware to parse JSON request bodies
 app.use (express.json());  
